@@ -1,0 +1,266 @@
+/**
+ * Table
+ */
+.input-text {
+    width: 100%;
+}
+
+.sh-heading {
+    background: #F9F9F9;
+    border-right: 1px solid #f0f0f0;
+    padding: 13px 15px;
+    width: 25%;
+    color: #333;
+    font-weight: bold;
+}
+
+.sh-content {
+    padding: 13px 15px;
+    position: relative;
+}
+
+.sh-taxonomy-row > .sh-content {
+    padding: 0;
+}
+
+.sh-taxonomy-row-not-found {
+    padding: 8px 10px;
+}
+
+.sh-row td {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sh-taxonomy-row .sh-row:last-child td {
+    border-bottom: none;
+}
+
+.postbox table.sh-table {
+    border: none;
+}
+
+#poststuff .shortcodehub .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.sh-image img {
+    cursor: pointer;
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.sh-remove-media {
+    color: #a00;
+    display: inline-block;
+    margin-left: 1em;
+}
+.sh-remove-media:hover {
+    color: #dc3232;
+}
+
+.widefat td .sh-image p {
+    margin: 0.2em 0;
+}
+
+/** Hide Edit URL box */
+.shortcode-type-image #edit-slug-box,
+.shortcode-type-iframe #edit-slug-box,
+.shortcode-type-video #edit-slug-box {
+    display: none;
+}
+
+/** Hide Beaver Builder Edit Button */
+.shortcode-type-image .fl-builder-admin,
+.shortcode-type-iframe .fl-builder-admin,
+.shortcode-type-video .fl-builder-admin {
+    display: none;
+}
+
+/** Hide Elementor Edit Button */
+.shortcode-type-image #elementor-switch-mode,
+.shortcode-type-iframe #elementor-switch-mode,
+.shortcode-type-video #elementor-switch-mode {
+    display: none;
+}
+
+#shortcodehub .inside {
+    margin:  0;
+    padding: 0;
+}
+
+/** Hide Switch the Editor */
+#classic-editor-switch-editor {
+    display: none;
+}
+
+.sh-title {
+    padding-left: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0;
+    padding: 1em 10px;
+    font-weight: normal;
+}
+
+.sh-table-advanced tr:first-child {
+    display: table-row;
+}
+
+.sh-table-advanced tr {
+    display: none;
+}
+
+.sh-display-options-title {
+    font-weight: normal;
+}
+
+.sh-title h3 {
+    margin: 5px 10px 10px 0px;
+}
+.sh-title p,
+.sh-title h3 {
+    display: inline-block;
+}
+
+.sh-field-select2 + .select2 .select2-selection.select2-selection--multiple {
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    background-color: #fff;
+    color: #32373c;
+    outline: none;
+    transition: 0.05s border-color ease-in-out;
+    border-radius: 0;
+}
+
+.sh-field-select2 + .select2 .select2-selection--multiple .select2-selection__choice {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: 2px 5px;
+}
+
+.sh-field-select2 + .select2 .select2-selection--multiple .select2-selection__rendered {
+    vertical-align: middle;
+}
+
+.sh-field-select2 + .select2 {
+    min-width: 150px;
+}
+
+#sh-sidebar .sh-seperator {
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 4px 0px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.processing:before {
+    color: #f56e28;
+    content: "\f463";
+    animation: rotation 2s infinite linear;
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    vertical-align: text-top;
+    position: absolute;
+    left: 0;
+}
+
+.sh-content .sh-field-select2 + .select2 .select2-selection.select2-selection--multiple {
+    border-color: #7e8993;
+    border-radius: 3px;
+}
+
+.sh-content .select2 {
+    width: 100% !important;
+}
+
+.sh-content .select2-search__field {
+    min-height: auto !important;
+    margin: 0;
+}
+
+.sh-content .select2-container--default .select2-search--inline .select2-search__field {
+    padding: 0;
+    margin: 0;
+}
+
+.sh-content .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    margin: 0;
+}
+
+.sh-field-select2 + .select2 .select2-selection.select2-selection--multiple {
+    border-color: #7e8993;
+    border-radius: 3px;
+}
+
+.sh-create-shortcode.processing {
+    padding-left: 25px;
+}
+
+.sh-create-shortcode {
+    position: relative;
+}
+
+/**
+ * Add New Shortcode Button
+ */
+#wp-admin-bar-new-shortcode,
+.post-php.post-type-shortcode .page-title-action,
+.edit-php.post-type-shortcode .page-title-action {
+    display: none;
+}
+
+.shortcode-content td,
+.shortcode-content table {
+    border: none;
+}
+
+/**
+ * Tip
+ */
+.sh-tip .icon {
+    cursor: pointer;
+    vertical-align: baseline;
+}
+.sh-tip-message {
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    margin: 5px 0 15px;
+    padding: 1px 12px;
+}
+
+.sh-tip-message p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
+
+.sh-tip-success {
+    border-left-color: #46b450;
+}
+
+.sh-tip-warning {
+    border-left-color: #ffb900;
+}
+
+.sh-tip-error {
+    border-left-color: #dc3232;
+}
+
+.sh-tip-info {
+    border-left-color: #00a0d2;
+}
+
+.sh-tip i {
+    vertical-align: middle;
+}
+
+/**
+ * Disable button.
+ */
+.sh-customize-design-reset-button.disabled,
+.sh-customize-design-button.disabled {
+    pointer-events: none.
+}

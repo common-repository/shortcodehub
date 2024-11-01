@@ -1,0 +1,16 @@
+<div class="sh-query-summery">
+	<ul class="sh-ul">
+
+		{% for post in posts %}
+
+			<li class="sh-li">
+				<h2 class="heading">
+					<a href="{{post.link}}">{{post.title}}</a>
+				</h2>
+				<div class="content">{{post.get_content(25)}}</div>
+			</li>
+
+		{% endfor %}
+
+	</ul>
+</div>

@@ -1,0 +1,11 @@
+<div class="sh-query-accordion">
+	{% for post in posts %}
+		<h3 class="title">{{post.title}}</h3>
+ 		<div class="item">
+			<div class="inner">
+				{{post.get_content( content_words )}}
+			</div>
+ 		</div>
+	{% endfor %}
+
+</div><!-- .sh-query-accordion -->

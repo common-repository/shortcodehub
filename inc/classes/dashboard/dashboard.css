@@ -1,0 +1,281 @@
+.dashboard .get-pro .button {
+    vertical-align: middle;
+}
+
+.dashboard h1 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 300;
+    margin: 0.4em 0 0.1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dashboard .title {
+    flex: 1;
+}
+
+.dashboard .version {
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: normal;
+    color: #ccced0;
+}
+
+.filter-links .dashicons-external {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.dashboard .version,
+.dashboard .product-logo {
+    align-self: center;
+}
+
+.dashboard .product-logo {
+	max-height: 30px;
+    opacity: .2;
+}
+
+.dashboard {
+    padding-right: 1.5em;
+}
+.dashboard.tab-welcome .footer {
+    margin-top: 100px;
+}
+.dashboard .footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.short-description {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.sh-welcome-panel-shortcode-list {
+    display: table;
+    margin: 0.8em 0em 1em 0;
+}
+
+.sh-welcome-panel-shortcode-list ul {
+    display: table-cell;
+}
+
+
+.welcome-panel .welcome-panel-column:first-child {
+    width: 30%;
+}
+.welcome-panel .welcome-panel-column {
+    width: 28%;
+}
+.welcome-panel .welcome-panel-column:nth-child(2) {
+    width: 42%;
+}
+.sh-welcome-panel-shortcode-list ul:last-child {
+    padding-left: 2em;
+}
+
+
+/**
+ * Library
+ */
+.shortcode-action .tablenav .button {
+    margin: 1px 5px 0 0;
+}
+.shortcode-action {
+    line-height: 20px;
+    color: #ddd;
+}
+.shortcode-name {
+    color: #000;
+    font-size: 14px;
+    margin-bottom: .2em;
+    display: block;
+    font-weight: 600;
+}
+.sh-library {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.shortcodes-list .deactivate > td:first-child {
+    border-left-color: #00a0d2;
+}
+
+.shortcodes-list td {
+    border-left: 4px solid transparent;
+}
+
+.shortcodes-list tr > td:first-child {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    width: 250px;
+}
+
+.processing:before {
+    color: #f56e28;
+    content: "\f463";
+    animation: rotation 2s infinite linear;
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.library-list .shortcodes-list {
+    border: none;
+}
+
+.library-list .shortcodes-list {
+    margin: 1em 0;
+}
+
+.sh-library .spinner {
+    float: none;
+    /* text-align: center; */
+    margin: 0em auto .5em auto;
+    /* display: block; */
+}
+
+.sh-library .inner {
+    text-align: center;
+    margin: 2em 0;
+}
+
+/*.sh-library {
+    margin: 3em auto 1em auto;
+}*/
+
+.sh-library p {
+    font-style: italic;
+}
+
+.dashboard #dashboard-widgets {
+    padding-top: 0;
+}
+
+.sh-library .notice {
+    margin: 1em 0;
+}
+
+.get-pro {
+    margin-left: 1em;
+}
+
+/**
+ * Getting Started
+ */
+.sh-most-useful-shortcodes-table {
+    width: 100%;
+    margin: 1em 0;
+}
+.sh-most-useful-shortcodes-table-inline {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: .5em 0;
+}
+.sh-copy-to-clipboard {
+    position: absolute;
+    z-index: 999;
+    background: rgba(35, 40, 45, 0.69);
+    color: #fff;
+    opacity: 0;
+    transition: all ease 0.3s;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px #23282d;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.sh-most-useful-shortcodes-table-inline li:hover > .sh-copy-to-clipboard,
+.sh-most-useful-shortcodes-table li:hover > .sh-copy-to-clipboard,
+.sh-most-useful-shortcodes-table-inline td:hover > .sh-copy-to-clipboard,
+.sh-most-useful-shortcodes-table td:hover > .sh-copy-to-clipboard {
+    opacity: 1;
+}
+
+.sh-most-useful-shortcodes-table-inline li,
+.sh-most-useful-shortcodes-table li,
+.sh-most-useful-shortcodes-table td {
+    position: relative;
+}
+
+.sh-most-useful-shortcodes-table-inline tr td:first-child {
+    /*padding-right: 3em;*/
+    min-width: 300px;
+}
+
+.shortcode-heading {
+    font-weight: 600;
+    font-size: medium;
+}
+.sh-most-useful-shortcodes-table h4 {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.sh-most-useful-shortcodes-table td {
+    vertical-align: top;
+}
+.sh-getting-started h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.sh-getting-started h1 {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 300;
+    margin: 0.4em 0 0.1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sh-getting-started .description {
+    font-size: 1rem;
+}
+.sh-getting-started img {
+    max-width: 100%;
+    margin: 1em 0;
+}
+.sh-getting-started ul,
+.sh-getting-started ol {
+    font-size: 1rem;
+    max-width: 90%;
+}
+.sh-getting-started li {
+    line-height: 1.5;
+}
+
+#welcome-panel {
+    background: transparent;
+}
+
+.welcome-panel-column {
+    display: flex;
+    /* flex: 1; */
+    align-items: start;
+}
+
+.wp-core-ui .welcome-panel .button.button-hero {
+    margin: 0;
+}
+
+.welcome-panel .welcome-panel-column-container {
+    display: flex;
+    border: 1px solid lightgray;
+}
+
+.welcome-panel-content {
+    display: block;
+}

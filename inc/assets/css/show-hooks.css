@@ -1,0 +1,31 @@
+.sh-show-hooks {
+    padding: 10px;
+    z-index: 52;
+    margin: 10px 0;
+    position: relative;
+    border: 2px dashed #FFC107;
+    background-color: #FFEB3B;
+    transition: all .3s linear;
+}
+.sh-show-hooks:hover {
+    background-color: #FFEB3B;
+    border-color: #FFEB3B;
+}
+.sh-show-hooks .add-new-hook a {
+	font-size: 12px;
+	border-radius: 3px;
+	padding: 2px 7px;
+	background: #fff;
+}
+.sh-show-hooks .hook-name{
+	font-size: 14px;
+}
+
+/**
+ * Highlight current hooks
+ */
+.sh-show-hooks .shortcodehub {
+    background: white;
+    padding: 1em;
+    margin: 1em 0;
+}

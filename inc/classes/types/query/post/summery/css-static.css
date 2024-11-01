@@ -1,0 +1,24 @@
+.shortcode-type-summery .sh-li {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    padding: 15px 20px;
+    background: #f2f2f2;
+}
+
+.shortcode-type-summery .sh-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.shortcode-type-summery .heading {
+    margin: 0 0 10px 0;
+}
+
+.shortcode-type-summery .sh-li a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+.shortcode-type-summery .content p:last-child {
+    margin-bottom: 0;
+}

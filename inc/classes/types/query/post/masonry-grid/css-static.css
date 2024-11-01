@@ -1,0 +1,111 @@
+/* Reset */
+.shortcodehub {
+    font-size: 16px;
+}
+.shortcodehub a {
+	text-decoration: none;
+	box-shadow: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.shortcodehub .item .inner-content > :last-child {
+    margin-bottom: 0;
+}
+.shortcodehub-grid .item {
+    margin-bottom: 40px;
+}
+
+/* Inner Content */
+.shortcodehub-grid .item .inner-content {
+    padding: 1.5em 2em;
+    margin: 0 0 0 0;
+}
+
+
+/* Heading */
+.shortcodehub-grid .item .heading {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+.shortcodehub-grid .item .heading a {
+	font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0 0 .5em 0em;
+}
+
+
+/* Read more */
+.shortcodehub-grid .item .read-more a {
+    font-size: 1em;
+    display: block;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+
+/* Content */
+.shortcodehub-grid .item .content p,
+.shortcodehub-grid .item .content {
+    font-size: 1em;
+}
+.shortcodehub-grid .item .content {
+    margin-bottom: 1em;
+}
+
+
+/* Thumbnail */
+.shortcodehub-grid .item .thumbnail {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Meta */
+.shortcodehub-grid .item .meta {
+    font-size: .9em;
+}
+
+/** CSS */
+
+/* Inner Content */
+.shortcodehub-grid .item .inner-content {
+    background: #f7f7f7;
+}
+
+
+/* Heading */
+.shortcodehub-grid .item .heading a:hover {
+    color: #3b3b3b;
+}
+.shortcodehub-grid .item .heading a {
+    color: #3b3b3b;
+}
+
+
+/* Meta */
+.shortcodehub-grid .item .meta a:hover {
+    color: #3b3b3b;
+}
+.shortcodehub-grid .item .meta a,
+.shortcodehub-grid .item .meta {
+    color: #3b3b3b;
+}
+
+
+/* Read more */
+.shortcodehub-grid .item .read-more a:hover {
+    color: #3b3b3b;
+}
+.shortcodehub-grid .item .read-more a {
+    color: #3b3b3b;
+}
+
+
+/* Content */
+.shortcodehub-grid .item .content {
+    margin-bottom: 1em;
+    color: #3b3b3b;
+}

@@ -1,0 +1,160 @@
+/* Reset */
+.shortcodehub {
+    font-size: 16px;
+}
+.shortcodehub a {
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.shortcodehub .item .inner-content > :last-child {
+    margin-bottom: 0;
+}
+.sh-query-timeline .item {
+    margin-bottom: 40px;
+}
+
+/** Inline */
+.sh-query-timeline {
+    margin: 0 auto;
+    position: relative;
+}
+
+.sh-query-timeline .inner {
+    padding: 20px 30px;
+    background-color: #f1f1f1;
+    position: relative;
+    border-radius: 6px;
+}
+
+.sh-query-timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #f1f1f1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.sh-query-timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.sh-query-timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ffffff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(odd):before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #f1f1f1;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #f1f1f1;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(odd):after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ffffff;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(even):before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #f1f1f1;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #f1f1f1 transparent transparent;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(even):after {
+    left: -10px;
+}
+
+.sh-query-timeline>.sh-query-timeline-item:nth-child(even):after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ffffff;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .sh-query-timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .sh-query-timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .sh-query-timeline-item::before {
+        left: 60px;
+        border: medium solid #f1f1f1;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f1f1f1 transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .sh-query-timeline>.sh-query-timeline-item:nth-child(odd)::after,
+    .sh-query-timeline>.sh-query-timeline-item:nth-child(even)::after {
+        left: 20px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .sh-query-timeline>.sh-query-timeline-item:nth-child(even) {
+        left: 0%;
+    }
+}

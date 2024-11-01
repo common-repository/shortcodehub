@@ -1,0 +1,33 @@
+<div class="shortcodehub-posts">
+
+	<div class="row shortcodehub-grid">
+
+		{% for post in posts %}
+
+			<div class="col-md-4 item">
+				<div class="inner">
+
+					{% if post.get_thumbnail %}
+						<img class="thumbnail" src="{{post.thumbnail.src}}" />
+					{% endif %}
+
+					<div class="inner-content">
+
+						<h2 class="heading">
+							<a href="{{post.link}}">{{post.title}}</a>
+						</h2>
+						<p class="meta">
+							<span>By</span><a href="{{post.author.path}}"> {{ post.author.name }} </a><span>&bull;</span> {{ post.date }}
+						</p>
+
+						<div class="content">{{post.get_content(35)}}</div>
+
+					</div>
+				</div>
+			</div>
+
+		{% endfor %}
+
+	</div>
+
+</div><!-- .shortcodehub-posts -->

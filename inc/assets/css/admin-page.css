@@ -1,0 +1,44 @@
+#sh-settings .spinner {
+    margin: 0 auto 1em auto;
+    width: 100%;
+}
+
+#sh-menu-page {
+	margin-top: 10px;
+}
+
+#sh-menu-page .sh-menu-page-title {
+	float: left;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0 0px 5px 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.shortcodehub:before {
+    left: -4px;
+    position: relative;
+    content: "\f463";
+    display: inline-block;
+    font-size: 20px;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sh-shortcode-text:disabled {
+    color: #32373c;
+    cursor: text;
+}
+
+.shortcodehub.is-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

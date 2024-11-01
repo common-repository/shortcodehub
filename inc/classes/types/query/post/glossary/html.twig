@@ -1,0 +1,27 @@
+<div class="sh-glossary">
+		<div class="letters-wrap">
+			<ul class="letters">
+				{% for key, post in posts %}
+					<li><a href="#goto-letter-{{key}}">{{key}}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	<div class="posts">
+		{% for key, all_post in posts %}
+			<div id="goto-letter-{{key}}" class="item-group">
+				<h3 class="letter">{{key}}</h3>
+				<div class="list">
+					{% for post in all_post %}
+						<div class="item">
+							<h3><a href="{{post.link}}">{{post.title}}</a></h3>
+							<div class="excerpt">
+								{{post.excerpt}}
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+		

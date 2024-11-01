@@ -1,0 +1,1002 @@
+# Copyright (C) 2019 ShortcodeHub
+# This file is distributed under the same license as the ShortcodeHub package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ShortcodeHub 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shortcodehub\n"
+"POT-Creation-Date: 2019-06-17 10:36:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/class-sh-hooks.php:149
+msgid "Show Hooks"
+msgstr ""
+
+#: classes/class-sh-hooks.php:153
+msgid "Hide Hooks"
+msgstr ""
+
+#: classes/class-sh-hooks.php:178
+msgid "Core Hooks"
+msgstr ""
+
+#: classes/class-sh-hooks.php:179
+msgid "Core hooks which are used in any WordPress theme/plugin."
+msgstr ""
+
+#: classes/class-sh-hooks.php:183
+msgid "WP Head"
+msgstr ""
+
+#: classes/class-sh-hooks.php:184
+msgid ""
+"Use hook <b>wp_head</b> to add the content within the "
+"&lt;head&gt;&lt;/head&gt; tag."
+msgstr ""
+
+#: classes/class-sh-hooks.php:188
+msgid "Loop Start"
+msgstr ""
+
+#: classes/class-sh-hooks.php:189
+msgid "Use hook <b>loop_start</b> to add the content at the start of the loop."
+msgstr ""
+
+#: classes/class-sh-hooks.php:193
+msgid "Before Dynamic Sidebar"
+msgstr ""
+
+#: classes/class-sh-hooks.php:194
+msgid ""
+"Use hook <b>dynamic_sidebar_before</b> to add the content at before the "
+"sidebar."
+msgstr ""
+
+#: classes/class-sh-hooks.php:198
+msgid "After Dynamic Sidebar"
+msgstr ""
+
+#: classes/class-sh-hooks.php:199
+msgid ""
+"Use hook <b>dynamic_sidebar_after</b> to add the content at after the "
+"sidebar."
+msgstr ""
+
+#: classes/class-sh-hooks.php:203
+msgid "Loop End"
+msgstr ""
+
+#: classes/class-sh-hooks.php:204
+msgid "Use hook <b>loop_end</b> to add the content at the start of the loop."
+msgstr ""
+
+#: classes/class-sh-hooks.php:208
+msgid "WP Footer"
+msgstr ""
+
+#: classes/class-sh-hooks.php:209
+msgid ""
+"Use hook <b>wp_footer</b> to add the content exact before the &lt;/body&gt; "
+"tag."
+msgstr ""
+
+#: classes/class-sh-hooks.php:244
+msgid "Add new Shortcode"
+msgstr ""
+
+#: classes/class-sh-hooks.php:244
+msgid "Add Shortcode"
+msgstr ""
+
+#: classes/class-sh-hooks.php:249
+#. translators: %s is current hook name.
+msgid "Hook Name: %s"
+msgstr ""
+
+#: classes/class-sh-page.php:66 classes/class-sh-post.php:326
+msgid "All Shortcodes"
+msgstr ""
+
+#: classes/class-sh-page.php:67 includes/add-new-form.php:13
+msgid "Add New"
+msgstr ""
+
+#: classes/class-sh-page.php:68 classes/class-sh-post.php:114
+#: classes/class-sh-post.php:370
+msgid "Categories"
+msgstr ""
+
+#: classes/class-sh-page.php:69 classes/dashboard/class-sh-dashboard.php:65
+#: classes/dashboard/class-sh-dashboard.php:132
+#: classes/dashboard/class-sh-dashboard.php:235
+#: classes/dashboard/class-sh-dashboard.php:357
+msgid "Dashboard"
+msgstr ""
+
+#: classes/class-sh-post.php:112
+msgid "Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:113
+msgid "Selected Hook"
+msgstr ""
+
+#: classes/class-sh-post.php:115
+msgid "Author"
+msgstr ""
+
+#: classes/class-sh-post.php:116
+msgid "Date"
+msgstr ""
+
+#: classes/class-sh-post.php:222
+msgid "Shortcode Settings"
+msgstr ""
+
+#: classes/class-sh-post.php:223
+msgid "Show On"
+msgstr ""
+
+#: classes/class-sh-post.php:246
+msgid "Select Hook"
+msgstr ""
+
+#: classes/class-sh-post.php:258
+msgid "Show shortcode on above selected hook."
+msgstr ""
+
+#: classes/class-sh-post.php:261
+#. translators: %s is show hooks link.
+msgid ""
+"<br/>Don't know hook locations? <a href=\"%s\" target=\"_blank\">Show "
+"Hooks..</a>"
+msgstr ""
+
+#: classes/class-sh-post.php:263
+msgid ""
+"<p class=\"description\">Your hook is not listed in above hooks list? Then, "
+"<a href=\"https://docs.surror.com/doc/wp-sync/add-hooks/\" target=\"_blank\">Add "
+"Hooks..</a></p>"
+msgstr ""
+
+#: classes/class-sh-post.php:265
+msgid "Use below shortcode anywhere:"
+msgstr ""
+
+#: classes/class-sh-post.php:267
+msgid "Use below code in theme/plugin template file:"
+msgstr ""
+
+#: classes/class-sh-post.php:288
+msgid "Shortcode Group"
+msgstr ""
+
+#: classes/class-sh-post.php:322
+msgid "Add New Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:323
+msgid "New Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:324 classes/class-sh-shortcode.php:103
+msgid "Edit Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:325
+msgid "View Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:327
+msgid "Search Shortcodes"
+msgstr ""
+
+#: classes/class-sh-post.php:328
+msgid "Parent Shortcodes:"
+msgstr ""
+
+#: classes/class-sh-post.php:329
+msgid "No Shortcodes found."
+msgstr ""
+
+#: classes/class-sh-post.php:330
+msgid "No Shortcodes found in Trash."
+msgstr ""
+
+#: classes/class-sh-post.php:337
+msgid "Description."
+msgstr ""
+
+#: classes/class-sh-post.php:362
+msgid "Search Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:363
+msgid "All Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:364
+msgid "Parent Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:365
+msgid "Parent Categories:"
+msgstr ""
+
+#: classes/class-sh-post.php:366
+msgid "Edit Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:367
+msgid "Update Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:368
+msgid "Add New Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:369
+msgid "New Categories Name"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:58
+msgid "Basic Shortcodes"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:61 includes/getting-started.php:25
+msgid "Text Editor"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:62
+msgid "Use TinyMCE editor to add your content."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:68
+msgid "Core Shortcodes"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:71 includes/getting-started.php:29
+msgid "Widget"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:72
+msgid "Select any active widget with shortcode."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:75 includes/getting-started.php:30
+msgid "Menu"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:76
+msgid "Select any menu and show it anywhere with shortcode."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:81
+msgid "Post, Page & Custom Post Shortcodes"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:85
+#: classes/class-sh-shortcode-types.php:151
+msgid "Simple Grid"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:86
+msgid "Make a Simple Grid of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:90
+msgid "Masonry Grid"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:91
+msgid "Make a Masonry Grid of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:96
+msgid "Timeline"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:97
+msgid "Make a Timeline of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:102
+msgid "Accordion"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:103
+msgid "Make a Accordion of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:108
+msgid "Tabs"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:109
+msgid "Make a Tabs layout of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:114
+msgid "List"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:115
+msgid "Make a Simple List of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:120
+msgid "Carousel"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:121
+msgid "Make a Carousel of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:126
+msgid "Slider"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:127
+msgid "Make a Slider of post, page and custom post types."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:132
+msgid "Pagination Grid"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:133
+msgid "Show all post, page and custom post types with pagination."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:139
+msgid "Filterable Grid"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:140
+msgid "Show all items and filter them with categories, tags and taxonomies."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:147
+msgid "Category, Tag or Custom Taxonomy Shortcodes"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:152
+msgid "List all selected categories, tags or custom taxonomies."
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:156
+msgid "Advanced Grid"
+msgstr ""
+
+#: classes/class-sh-shortcode-types.php:157
+msgid "List categories, tags or custom taxonomies with assigned posts."
+msgstr ""
+
+#: classes/class-sh-shortcode.php:77
+#. translators: %s is shortcode archive link
+msgid ""
+"<p><i>You have entered invalid shortcode ID. Please add correct shortcode "
+"ID from the <a href=\"%s\">available shortcode list</a>.</i></p>"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:147
+msgid "Welcome to ShortcodeHub!"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:148
+msgid "We've assembled some links to get you started:"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:151
+msgid "Get Started"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:152
+msgid "Create Your Shortcode"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:154
+#. translators: %s quick start guide.
+msgid "or, <a href=\"%s\">check quick start guide</a>"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:157
+msgid "Quick Create"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:160
+msgid "Text Shortcode"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:161
+msgid "Code Shortcode"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:162
+msgid "Widget Shortcode"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:163
+msgid "Menu Shortcode"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:166
+#: includes/getting-started.php:255
+msgid "Quick Links"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:168
+msgid "Most useful shortcodes"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:169
+msgid "Learn more about getting started"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:173
+msgid "More Actions"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:175
+msgid "Join Facebook Group"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:176
+msgid "Ask on Forum"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:249
+#. translators: %s is plugin version.
+msgid "Version %s"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:264
+msgid "Support"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:267
+msgid "Documentation"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:282
+#. translators: %1$s is a product name, %2$s is a product pro link, %2$s is a
+#. brand name, %2$s is a product doc link.
+msgid ""
+"<b>%1$s</b> is a product of <a href=\"%2$s\" target=\"_blank\">%3$s</a>. "
+"For questions and feedback please <a href=\"%4$s\" target=\"_blank\">Visit "
+"our Help site.</a>"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:306
+#. translators: 1: Brand Name 2:: five stars
+msgid ""
+"<br/><span class=\"rating-wrap\">If you like %1$s please leave us a %2$s "
+"rating. A huge thanks in advance!</span>"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:308
+msgid "Thanks :)"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:328
+msgid "Activate Pro"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:332
+msgid "Activate License"
+msgstr ""
+
+#: classes/dashboard/class-sh-dashboard.php:337
+msgid "Get Pro"
+msgstr ""
+
+#: classes/timber-library/lib/Archives.php:159
+msgid "%1$s %2$d"
+msgstr ""
+
+#: classes/timber-library/lib/Archives.php:161
+msgid "%1$s"
+msgstr ""
+
+#: classes/timber-library/lib/Pagination.php:122
+msgid "&laquo; Previous"
+msgstr ""
+
+#: classes/timber-library/lib/Pagination.php:123
+msgid "Next &raquo;"
+msgstr ""
+
+#: classes/timber-library/lib/Pagination.php:186
+#: classes/timber-library/lib/TextHelper.php:41
+msgid "&hellip;"
+msgstr ""
+
+#: classes/types/class-sh-shortcode-type-menu.php:67
+msgid "Select Menu"
+msgstr ""
+
+#: classes/types/class-sh-shortcode-type-menu.php:70
+msgid "Select Menu..."
+msgstr ""
+
+#: classes/types/class-sh-shortcode-type-widget.php:69
+#: classes/types/class-sh-shortcode-type-widget.php:72
+msgid "Select Widget"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:155
+msgid "Select Operator"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:156
+msgid "IN"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:157
+msgid "NOT IN"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:158
+msgid "AND"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:171
+msgid "Not have any taxonomy."
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:348
+msgid "Post"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:349
+msgid "Page"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:357
+#: classes/types/query/class-sh-shortcode-type-query.php:470
+msgid "Select"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:471
+msgid "ID"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:472
+msgid "Title"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:473
+msgid "Published date"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:474
+msgid "Modified date"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:481
+msgid "Ascending"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:482
+msgid "Descending"
+msgstr ""
+
+#: classes/types/query/class-sh-shortcode-type-query.php:535
+msgid "Status"
+msgstr ""
+
+#: classes/types/query/layout/simple-grid/class-sh-shortcode-type-query-layout-grid.php:96
+msgid "Not have any posts!"
+msgstr ""
+
+#: classes/types/query/layout/simple-grid/html.php:33
+msgid "Read more.."
+msgstr ""
+
+#: classes/useful-shortcodes/class-sh-useful-shortcodes-author.php:684
+#. translators: %1$s is field name.
+msgid ""
+"Error! User field <b>%1$s</b> is not a valid field. Please use a valid user "
+"field. See <a href=\"%2$s\" target=\"_blank\">all valid user fields</a>."
+msgstr ""
+
+#: includes/add-new-form.php:15
+msgid "Quick create new shortcode from below list of shortcodes."
+msgstr ""
+
+#: includes/add-new-form.php:33
+msgid "Soon"
+msgstr ""
+
+#: includes/add-new-form.php:36
+msgid "Pro"
+msgstr ""
+
+#: includes/add-new-form.php:43
+msgid "Coming Soon"
+msgstr ""
+
+#: includes/add-new-form.php:48
+msgid "Create"
+msgstr ""
+
+#: includes/getting-started.php:15
+msgid "Quick Video"
+msgstr ""
+
+#: includes/getting-started.php:17
+msgid "Create Shortcode from a Scratch"
+msgstr ""
+
+#: includes/getting-started.php:18
+msgid ""
+"Creating a shortcode from a scratch is very simple. Simply select shortcode "
+"type and click on Add Shortcode button."
+msgstr ""
+
+#: includes/getting-started.php:20
+msgid ""
+"We have categorize the shortcodes in a group. Check below shortcode types "
+"and groups."
+msgstr ""
+
+#: includes/getting-started.php:23
+msgid "Basic"
+msgstr ""
+
+#: includes/getting-started.php:25
+msgid ""
+"Add content though WYSWYG editor/TinyMCE editor and show them with "
+"shortcode."
+msgstr ""
+
+#: includes/getting-started.php:27
+msgid "Core"
+msgstr ""
+
+#: includes/getting-started.php:29
+msgid "Select any active widget and show it with shortcode."
+msgstr ""
+
+#: includes/getting-started.php:30
+msgid "Select any menu and show it with shortcode."
+msgstr ""
+
+#: includes/getting-started.php:38
+msgid "Yup!"
+msgstr ""
+
+#: includes/getting-started.php:39
+msgid "You have created a shortcode. Now you can show it with:"
+msgstr ""
+
+#: includes/getting-started.php:41
+msgid ""
+"Shortcode - Use shortcode <code>[shortcodehub id=\"{POST_ID}\"]</code> "
+"anywhere."
+msgstr ""
+
+#: includes/getting-started.php:42
+msgid "Hook - Select action hook to show your shortcode. E.g."
+msgstr ""
+
+#: includes/getting-started.php:48
+#. translators: $1%s is show hooks link.
+msgid ""
+"Don't know hook locations? Then, Click on <a href=\"$1%s\" "
+"target=\"_blank\">show hooks</a> to see the available hooks location on "
+"frontend. E.g."
+msgstr ""
+
+#: includes/getting-started.php:55
+msgid "List of some useful shortcodes"
+msgstr ""
+
+#: includes/getting-started.php:60
+msgid "# Post Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:62
+msgid "Use below shortcodes to show the post title, id, content etc."
+msgstr ""
+
+#: includes/getting-started.php:63
+msgid "E.g. Use <code>[sh_post_title]</code> to show the current post title."
+msgstr ""
+
+#: includes/getting-started.php:64
+msgid "Or Use <code>[sh_post_title id=\"123\"]</code> to show another post title."
+msgstr ""
+
+#: includes/getting-started.php:67 includes/getting-started.php:68
+#: includes/getting-started.php:69 includes/getting-started.php:70
+#: includes/getting-started.php:71 includes/getting-started.php:72
+#: includes/getting-started.php:73 includes/getting-started.php:74
+#: includes/getting-started.php:75 includes/getting-started.php:76
+#: includes/getting-started.php:77 includes/getting-started.php:78
+#: includes/getting-started.php:79 includes/getting-started.php:80
+#: includes/getting-started.php:81 includes/getting-started.php:82
+#: includes/getting-started.php:83 includes/getting-started.php:84
+#: includes/getting-started.php:85 includes/getting-started.php:86
+#: includes/getting-started.php:87 includes/getting-started.php:88
+#: includes/getting-started.php:89 includes/getting-started.php:90
+#: includes/getting-started.php:91 includes/getting-started.php:92
+#: includes/getting-started.php:93 includes/getting-started.php:94
+#: includes/getting-started.php:105 includes/getting-started.php:106
+#: includes/getting-started.php:107 includes/getting-started.php:108
+#: includes/getting-started.php:109 includes/getting-started.php:110
+#: includes/getting-started.php:111 includes/getting-started.php:112
+#: includes/getting-started.php:113 includes/getting-started.php:114
+#: includes/getting-started.php:115 includes/getting-started.php:116
+#: includes/getting-started.php:117 includes/getting-started.php:118
+#: includes/getting-started.php:119 includes/getting-started.php:120
+#: includes/getting-started.php:121 includes/getting-started.php:122
+#: includes/getting-started.php:123 includes/getting-started.php:124
+#: includes/getting-started.php:125 includes/getting-started.php:126
+#: includes/getting-started.php:127 includes/getting-started.php:128
+#: includes/getting-started.php:129 includes/getting-started.php:130
+#: includes/getting-started.php:131 includes/getting-started.php:142
+#: includes/getting-started.php:143 includes/getting-started.php:144
+#: includes/getting-started.php:145 includes/getting-started.php:146
+#: includes/getting-started.php:147 includes/getting-started.php:148
+#: includes/getting-started.php:149 includes/getting-started.php:150
+#: includes/getting-started.php:151 includes/getting-started.php:152
+#: includes/getting-started.php:153 includes/getting-started.php:154
+#: includes/getting-started.php:155 includes/getting-started.php:156
+#: includes/getting-started.php:157 includes/getting-started.php:158
+#: includes/getting-started.php:159 includes/getting-started.php:160
+#: includes/getting-started.php:161 includes/getting-started.php:162
+#: includes/getting-started.php:163 includes/getting-started.php:164
+#: includes/getting-started.php:175 includes/getting-started.php:176
+#: includes/getting-started.php:177 includes/getting-started.php:178
+#: includes/getting-started.php:179 includes/getting-started.php:180
+#: includes/getting-started.php:181 includes/getting-started.php:182
+#: includes/getting-started.php:183 includes/getting-started.php:184
+#: includes/getting-started.php:185 includes/getting-started.php:186
+#: includes/getting-started.php:187 includes/getting-started.php:188
+#: includes/getting-started.php:189 includes/getting-started.php:190
+#: includes/getting-started.php:191 includes/getting-started.php:207
+#: includes/getting-started.php:208 includes/getting-started.php:209
+#: includes/getting-started.php:210 includes/getting-started.php:211
+#: includes/getting-started.php:219 includes/getting-started.php:220
+#: includes/getting-started.php:221 includes/getting-started.php:231
+#: includes/getting-started.php:232 includes/getting-started.php:233
+#: includes/getting-started.php:234 includes/getting-started.php:242
+#: includes/getting-started.php:243 includes/getting-started.php:244
+#: includes/getting-started.php:245
+msgid "Copy Shortcode"
+msgstr ""
+
+#: includes/getting-started.php:98
+msgid "# Author Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:100
+msgid "Use below shortcodes to show the author name, description etc."
+msgstr ""
+
+#: includes/getting-started.php:101
+msgid ""
+"E.g. Use <code>[sh_author_display_name]</code> to show the current logged "
+"in user display name."
+msgstr ""
+
+#: includes/getting-started.php:102
+msgid ""
+"Or Use <code>[sh_author_display_name id=\"123\"]</code> to show another "
+"user display name."
+msgstr ""
+
+#: includes/getting-started.php:135
+msgid "# Theme Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:137
+msgid "Use below shortcodes to show the theme name, description etc."
+msgstr ""
+
+#: includes/getting-started.php:138
+msgid ""
+"E.g. Use <code>[sh_theme_version]</code> to show the current active theme "
+"version."
+msgstr ""
+
+#: includes/getting-started.php:139
+msgid ""
+"Or Use <code>[sh_theme_version slug=\"awesomepress\"]</code> to show "
+"installed theme version by theme slug."
+msgstr ""
+
+#: includes/getting-started.php:168
+msgid "# Plugin Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:170
+msgid "Use below shortcodes to show the plugin name, description etc."
+msgstr ""
+
+#: includes/getting-started.php:171
+msgid ""
+"E.g. Use <code>[sh_plugin_version]</code> to show the current active plugin "
+"version."
+msgstr ""
+
+#: includes/getting-started.php:172
+msgid ""
+"Or Use <code>[sh_plugin_version slug=\"shortcodehub\"]</code> to show "
+"installed plugin version by plugin slug."
+msgstr ""
+
+#: includes/getting-started.php:202
+msgid "# Date Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:203
+msgid "Date Examples"
+msgstr ""
+
+#: includes/getting-started.php:204
+msgid "Use below shortcodes to show the current date."
+msgstr ""
+
+#: includes/getting-started.php:206 includes/getting-started.php:218
+#: includes/getting-started.php:230 includes/getting-started.php:241
+msgid "Example"
+msgstr ""
+
+#: includes/getting-started.php:206 includes/getting-started.php:218
+#: includes/getting-started.php:230 includes/getting-started.php:241
+msgid "Output"
+msgstr ""
+
+#: includes/getting-started.php:215
+msgid "Date & Time Examples"
+msgstr ""
+
+#: includes/getting-started.php:216
+msgid "Use below shortcodes to show the current date & time."
+msgstr ""
+
+#: includes/getting-started.php:225
+msgid "# Time Shortcode's"
+msgstr ""
+
+#: includes/getting-started.php:227
+msgid "Time 12 hrs Examples"
+msgstr ""
+
+#: includes/getting-started.php:228
+msgid "Use below shortcodes to show the current time in 12 hours format."
+msgstr ""
+
+#: includes/getting-started.php:238
+msgid "Time 24 hrs Examples"
+msgstr ""
+
+#: includes/getting-started.php:239
+msgid "Use below shortcodes to show the current time in 24 hours format."
+msgstr ""
+
+#: includes/getting-started.php:258
+#. translators: %s is forum link. %s is doc link.
+msgid ""
+"- Do you have any questions? Checkout the <a href=\"%1$s\" "
+"target=\"_blank\">forum</a> or <a href=\"%2$s\" "
+"target=\"_blank\">documentation</a>."
+msgstr ""
+
+#: includes/getting-started.php:263
+msgid "New Suggestion Request"
+msgstr ""
+
+#: includes/getting-started.php:264
+msgid "I have a new suggestion request for ShortcodeHub. I suggest ______"
+msgstr ""
+
+#: includes/getting-started.php:267
+#. translators: %s is support link.
+msgid ""
+"- Do you have any suggestions? Feel free to <a href=\"%1$s\" "
+"target=\"_blank\">contact us</a>."
+msgstr ""
+
+#: includes/getting-started.php:272
+msgid "I have a issue ___"
+msgstr ""
+
+#: includes/getting-started.php:273
+msgid "I have a issue in ShortcodeHub. Issue is ______"
+msgstr ""
+
+#: includes/getting-started.php:276
+#. translators: %s is support link.
+msgid ""
+"- Do you have any issues? Don't hesitate to <a href=\"%1$s\" "
+"target=\"_blank\">open a support ticket</a>."
+msgstr ""
+
+#: includes/getting-started.php:283
+#. translators: %s is pro link.
+msgid ""
+"Get much more in ShortcodeHub Pro. <a href=\"%1$s\" target=\"_blank\">Get "
+"Pro</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ShortcodeHub"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://surror.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "All in one multi-purpose shortcode builder."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ShortcodeHub"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://surror.com/"
+msgstr ""
+
+#: classes/class-sh-post.php:317
+msgctxt "post type general name"
+msgid "Shortcodes"
+msgstr ""
+
+#: classes/class-sh-post.php:318
+msgctxt "post type singular name"
+msgid "Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:319
+msgctxt "admin menu"
+msgid "Shortcodes"
+msgstr ""
+
+#: classes/class-sh-post.php:320
+msgctxt "add new on admin bar"
+msgid "Shortcode"
+msgstr ""
+
+#: classes/class-sh-post.php:321
+msgctxt "new shortcode item"
+msgid "Add New"
+msgstr ""
+
+#: classes/class-sh-post.php:360
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: classes/class-sh-post.php:361
+msgctxt "taxonomy singular name"
+msgid "Categories"
+msgstr ""
+
+#: classes/timber-library/lib/TextHelper.php:55
+#. translators: If your word count is based on single characters (East Asian
+#. characters), enter 'characters'. Otherwise, enter 'words'. Do not translate
+#. into your own language.
+msgctxt "word count: words or characters?"
+msgid "words"
+msgstr ""

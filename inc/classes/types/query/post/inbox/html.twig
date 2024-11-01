@@ -1,0 +1,34 @@
+<div class="shortcodehub-posts">
+
+	<div class="row">
+		<div class="col-md-4">
+
+			<div class="container">
+				<div class="row shortcodehub-grid">
+
+					{% for post in posts %}
+
+						<div class="col-md-12 item" data-id="{{post.id}}">
+							<div class="inner">
+
+								<div class="inner-content">
+
+									<h2 class="heading">{{post.title}}</h2>
+
+									<div class="content">{{post.get_content(20)}}</div>
+
+								</div>
+							</div>
+						</div>
+
+					{% endfor %}
+
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="sh-post-preview"></div>
+		</div>
+	</div>
+
+</div><!-- .shortcodehub-posts -->
